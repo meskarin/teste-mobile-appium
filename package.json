@@ -1,0 +1,29 @@
+{
+  "name": "teste-mobile-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meskarin/teste-mobile-appium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meskarin/teste-mobile-appium/issues"
+  },
+  "homepage": "https://github.com/meskarin/teste-mobile-appium#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.14.1"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^7.14.1",
+    "@wdio/local-runner": "^7.14.1",
+    "@wdio/mocha-framework": "^7.14.1",
+    "@wdio/spec-reporter": "^7.14.1"
+  }
+}
